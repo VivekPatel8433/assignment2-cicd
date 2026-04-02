@@ -6,8 +6,8 @@ pipeline {
     }
 
     environment {
-        NETLIFY_SITE_ID = 'your-site-id-here'
-        NETLIFY_TOKEN = credentials('netlify-token')
+        NETLIFY_SITE_ID = '6f21f1bc-f328-4e7b-becf-568f02d7a72b'
+        NETLIFY_TOKEN = credentials('nfp_7FBFqPn4nCTQyfs3NhBuHtLGJQ1nahWUc2c4')
         CI = 'true'
     }
 
